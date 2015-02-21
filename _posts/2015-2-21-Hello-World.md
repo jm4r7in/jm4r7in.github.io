@@ -4,7 +4,9 @@ title: Build A Blog With Jekyll And GitHub Pages
 published: true
 ---
 
-I followed the tutorial :
-http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/
+I followed the tutorial: 
+
+[Build A Blog With Jekyll And GitHub Pages] (http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/)
+
 
 The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
