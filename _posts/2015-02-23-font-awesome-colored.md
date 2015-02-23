@@ -1,7 +1,0 @@
----
-published: true
----
-
-## Font Awesome Colored
-
-[Font Awesome Colored](http://codepen.io/anon/pen/OPZLZg)
