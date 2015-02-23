@@ -62,7 +62,9 @@ Open mup.json and enter your credentials, host, username, password, nodeVersion 
   "deployCheckWaitTime": 15
 }
 
-
+After all info is saved, run 
+	mup setup
+now the script will setup all required dependencies for the meteor app, like node, phantom and mongodb.
 
 If everything went well, next command is 
 	mup deploy
