@@ -45,6 +45,7 @@ Open mup.json and enter your credentials, host, username, password, nodeVersion 
   // Configure environment
   "env": {
     "PORT": 3000,
+    "UPSTART_UID": "meteoruser", // The user you want to run meteor as.
     "ROOT_URL": "http://app.idretis.com"
   },
 
@@ -67,15 +68,14 @@ SSH to your server and
 9) My config file looks like this
 
 server {
-	listen 80;
-	server_name app.mydomain.com;
+	listen *:80;
+	server_name app.idetis.com;
     location / {
-    	proxy_pass http://localhost:3000;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header Host $host;
-        proxy_http_version 1.1;
-        proxy_set_header Upgrade $http_upgrade;
-        proxy_set_header Connection $connection_upgrade;
+    	proxy_pass http://127.0.0.1:3000;
+    	proxy_http_version 1.1;
+    	proxy_set_header Upgrade $http_upgrade;
+    	proxy_set_header Connection 'upgrade';
+    	proxy_set_header X-Forwarded-For $remote_addr;
     }
 }
 
