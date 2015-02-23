@@ -1,7 +1,6 @@
 ---
-published: false
+published: true
 ---
-
 
 I followed the tutorial: 
 
