@@ -11,7 +11,7 @@ Inspired from:
 ## 1. Installing Meteor-Up
 
 In your local app directory, run:
-	sudo npm install -g mup
+    sudo npm install -g mup
     sudo ln -s /usr/bin/nodejs /usr/bin/node
     sudo apt-get install sshpass
     
