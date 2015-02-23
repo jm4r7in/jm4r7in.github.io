@@ -26,8 +26,8 @@ Open mup.json and enter your credentials, host, username, password, nodeVersion 
   "servers": [
     {
       "host": "m72.evxonline.net",
-      "username": "root",
-      "password": "z8CbNXvQ7"
+      "username": "",
+      "password": ""
       // or pem file (ssh based authentication)
       //"pem": "~/.ssh/id_rsa"
     }
