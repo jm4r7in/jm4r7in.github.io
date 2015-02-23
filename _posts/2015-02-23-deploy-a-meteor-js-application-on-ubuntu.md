@@ -2,11 +2,13 @@
 published: true
 ---
 
-Inspired from 
-http://alexbachuk.com/deploying-meteor-application-part-2/
-https://gentlenode.com/journal/meteor-19-deploying-your-applications-in-a-snap-with-meteor-up-mup/41
+Inspired from:
+- http://alexbachuk.com/deploying-meteor-application-part-2/
+- https://gentlenode.com/journal/meteor-19-deploying-your-applications-in-a-snap-with-meteor-up-mup/41
 
-## Installing Meteor-Up
+
+
+## 1. Installing Meteor-Up
 
 In your local app directory, run:
 	sudo npm install -g mup
@@ -16,7 +18,7 @@ In your local app directory, run:
 If you need to update MUP to the latest version in the future:
     npm update mup -g
 
-## Creating and Configuring a Meteor-Up Project
+## 2. Creating and Configuring a Meteor-Up Project
 
 In your local app directory, run:
 	mup init
@@ -69,13 +71,13 @@ After all info is saved, run
 	mup setup
 now the script will setup all required dependencies for the meteor app, like node, phantom and mongodb.
 
-## Deploying your Application
+## 3. Deploying your Application
 
 If everything went well, next command is 
 	mup deploy
 the script will upload your app to the server and convert the app into plain node.js application.
 
-## Installing and Configuring nginx
+## 4. Installing and Configuring nginx
 
 Just run:
 	sudo apt-get install nginx
@@ -104,7 +106,7 @@ In this case, nginx listens on port 80 for app.idretis.com and then proxies loca
 To restart nginx:
 	/etc/init.d/nginx restart
 
-## Browsing Your Application Server Logs
+## 5. Browsing Your Application Server Logs
 
 To tail logs from the server, just run:
 	mup logs -n1000
@@ -112,7 +114,7 @@ with the -n option, the tail command displays the last 1,000 lines
 	mup logs -F
 with the -F option, the tail command updates the display as new lines are added to the logs by another process
 
-## Reconfiguring and Restarting Your Application
+## 6. Reconfiguring and Restarting Your Application
 
 When you’ve edited some of your environment variables in the configuration file, you can ask MUP to reconfigure and restart your application using the following command:
 	mup reconfig
