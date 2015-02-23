@@ -68,5 +68,22 @@ If everything went well, next command is mup deploy, the script will upload your
 
 SSH to your server and 
 	sudo nano /etc/nginx/sites-available/default
+    
+9) My config file looks like this
+
+server {
+	listen 80;
+	server_name app.mydomain.com;
+    location / {
+    	proxy_pass http://localhost:3000;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header Host $host;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection $connection_upgrade;
+    }
+}
+
+In this case, nginx listens on port 80 for app.domain.com and then proxies localhost:3000.
 
 
