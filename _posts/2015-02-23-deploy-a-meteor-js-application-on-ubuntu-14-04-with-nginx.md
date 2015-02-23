@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 Inspired from [How To Deploy a Meteor.js Application on Ubuntu 14.04 with Nginx | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-meteor-js-application-on-ubuntu-14-04-with-nginx)
