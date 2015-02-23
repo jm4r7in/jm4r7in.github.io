@@ -16,10 +16,12 @@ http://alexbachuk.com/deploying-meteor-application-part-2/
 While in your local app directory run
 	sudo npm install -g mup
     sudo ln -s /usr/bin/nodejs /usr/bin/node
+    sudo apt-get install sshpass
     mup init
     
 Open mup.json and enter your credentials, host, username, password, nodeVersion hould be 0.10.28 or greater
-	{
+
+{
   // Server authentication info
   "servers": [
     {
@@ -61,4 +63,6 @@ Open mup.json and enter your credentials, host, username, password, nodeVersion 
 }
 
 
+
+If everything went well, next command is mup deploy, the script will upload your app to the server and convert the app into plain node.js application.
 
