@@ -11,6 +11,10 @@ Inspired from [How To Deploy a Meteor.js Application on Ubuntu 14.04 with Nginx 
 Create the file : /etc/nginx/sites-available/myappname
 
 
+http://alexbachuk.com/deploying-meteor-application-part-2/
+
+
+
 
 
 
