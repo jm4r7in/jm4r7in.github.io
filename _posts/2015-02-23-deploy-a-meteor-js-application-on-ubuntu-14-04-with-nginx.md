@@ -13,5 +13,6 @@ Create the file : /etc/nginx/sites-available/myappname
 
 http://alexbachuk.com/deploying-meteor-application-part-2/
 
+While in your local app directory run
 	npm install -g mup
 
