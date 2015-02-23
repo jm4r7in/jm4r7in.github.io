@@ -66,3 +66,7 @@ Open mup.json and enter your credentials, host, username, password, nodeVersion 
 
 If everything went well, next command is mup deploy, the script will upload your app to the server and convert the app into plain node.js application.
 
+SSH to your server and 
+	sudo nano /etc/nginx/sites-available/default
+
+
