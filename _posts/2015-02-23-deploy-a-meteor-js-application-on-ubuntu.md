@@ -65,6 +65,8 @@ the script will upload your app to the server and convert the app into plain nod
 SSH to your server and 
 	sudo nano /etc/nginx/sites-available/default
     
+[CTRL+O] to save the file
+    
 9) My config file looks like this
 
 server {
