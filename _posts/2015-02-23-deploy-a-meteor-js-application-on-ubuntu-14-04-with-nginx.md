@@ -7,7 +7,9 @@ Inspired from [How To Deploy a Meteor.js Application on Ubuntu 14.04 with Nginx 
 ## Step 1 — Setting Up an Nginx Web Server
 
 	apt-get install nginx
-    
+
+Create the file : /etc/nginx/sites-available/myappname
+
 
 
 
