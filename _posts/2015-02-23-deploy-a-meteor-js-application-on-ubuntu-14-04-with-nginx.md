@@ -53,7 +53,7 @@ Open mup.json and enter your credentials, host, username, password, nodeVersion 
 
   // Configure environment
   "env": {
-    "PORT": 80,
+    "PORT": 3000,
     "ROOT_URL": "http://app.idretis.com"
   },
 
