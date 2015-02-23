@@ -83,6 +83,9 @@ server {
 
 In this case, nginx listens on port 80 for app.domain.com and then proxies localhost:3000.
 
+To restart nginx:
+	/etc/init.d/nginx restart
+
 
 	mup logs -n1000
 
