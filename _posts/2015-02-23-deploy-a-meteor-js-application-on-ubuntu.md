@@ -8,6 +8,7 @@ Inspired from:
 
 
 
+
 ## 1. Installing Meteor-Up
 
 In your local app directory, run:
