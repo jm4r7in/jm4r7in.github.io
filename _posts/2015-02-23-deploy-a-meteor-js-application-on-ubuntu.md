@@ -2,10 +2,11 @@
 published: true
 ---
 
+## Deploy A Meteor Js Application On Ubuntu
+
 Inspired from:
 - http://alexbachuk.com/deploying-meteor-application-part-2/
 - https://gentlenode.com/journal/meteor-19-deploying-your-applications-in-a-snap-with-meteor-up-mup/41
-
 
 
 
@@ -124,4 +125,3 @@ When you’ve edited some of your environment variables in the configuration fil
 
 You can't access the MongoDB from the outside of the server. To access the MongoDB shell you need to log into your server by SSH first and then run the following command.
     mongo appName
-
