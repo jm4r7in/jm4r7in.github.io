@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 ## How to fix a local Git repo
@@ -7,9 +7,3 @@ published: false
 1. rename the folder to "save-git"
 2. git clone
 3. copy the content of the "save-git" folder to the new folder
-
-
-
-
-
-
