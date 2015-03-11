@@ -55,8 +55,33 @@ Install the packages.
 ## 9. Install the Cordova CLI
 
 https://cordova.apache.org/
+	sudo npm install -g cordova
+
+## 10. Create the App
+
+Go to the directory where you maintain your source code, and run a command such as the following:
+	cordova create hello com.example.hello HelloWorld
+
+Add Platforms
+	cd hello
+    
+    $ cordova platform add ios
+    $ cordova platform add amazon-fireos
+    $ cordova platform add android
+    $ cordova platform add blackberry10
+    $ cordova platform add firefoxos
+    
+Run this to check your current set of platforms:
+	$ cordova platforms ls
+
+Edit config.xml
+
+Add your index.html, js images and css files to the relevant folders in the www folder
 
 
+## 11. Build the App
+
+	$ cordova build
 
 
 
