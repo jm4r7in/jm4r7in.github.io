@@ -89,6 +89,15 @@ Run this to check your current set of platforms:
 
 Edit config.xml
 
+<platform name="android">
+</platform>
+
+Configuring Icons in the CLI
+
+The following configuration can be used to define single default icon which will be used for all platforms:
+	<icon src="res/icon.png" />
+
+
 Add your index.html, js images and css files to the relevant folders in the www folder
 
 
