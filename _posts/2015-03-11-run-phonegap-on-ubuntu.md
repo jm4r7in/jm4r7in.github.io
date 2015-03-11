@@ -106,8 +106,6 @@ Replace the value of android:targetSdkVersion by the version
 Edit config.xml
 http://cordova.apache.org/docs/en/4.0.0/config_ref_index.md.html#The%20config.xml%20File
 
-<platform name="android">
-</platform>
 
 Configuring Icons in the CLI
 
@@ -122,7 +120,7 @@ Add your index.html, js images and css files to the relevant folders in the www 
 
 	$ cordova build
 
-The result will be a file called yourApp-debug-unaligned.apk in the directory /path/to/app/files/platforms/android/CordovaLib/ant-build
+The result will be a file called yourApp-debug-unaligned.apk in the directory /path/to/app/files/platforms/android/ant-build
 
 
 
