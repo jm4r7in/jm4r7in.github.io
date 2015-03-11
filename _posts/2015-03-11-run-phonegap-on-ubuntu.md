@@ -34,7 +34,14 @@ Extract to /usr/local/android-sdk-linux
 	sudo apt-get install openjdk-7-jre
 	sudo apt-get install openjdk-7-jdk
 
-## 7. Update your PATH
+## 7. Launch the Android SDK Manager
+	cd /usr/local/android-sdk-linux
+    sh android
+
+
+
+
+## . Update your PATH
 
 Open .profile for editing using the following command.
 	gedit ~/.profile
@@ -45,8 +52,21 @@ Append the following lines to the end of the file. Do not put these inside any o
 	export PATH="$PATH:$ANDROID_HOME:$ANDROID_PLATFORM_TOOLS"
 Save the file, log out, and log back in to apply the changes.
 
+## . Install the necessary Android packages
+
+
+## . Update C/C++
+
+
+## . Update C/C++
+
+
+Inspired by: 
+- http://www.levibotelho.com/development/the-complete-guide-to-running-phonegap-on-ubuntu/
+- https://steveyoung.wordpress.com/2014/10/22/updating-phonegap-app-to-cordova-3-5-1/
 
 
 
 
-Inspired by: http://www.levibotelho.com/development/the-complete-guide-to-running-phonegap-on-ubuntu/
+
+
