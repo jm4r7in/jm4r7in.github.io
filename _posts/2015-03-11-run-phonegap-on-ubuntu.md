@@ -36,7 +36,7 @@ Extract to /usr/local/android-sdk-linux
 
 ## 7. Launch the Android SDK Manager
 
-	/usr/local/android-sdk-linux/tools/android
+	sudo /usr/local/android-sdk-linux/tools/android
 
 ## 8. In the Android SDK Manager
 
@@ -86,6 +86,11 @@ Add Platforms
     
 Run this to check your current set of platforms:
 	$ cordova platforms ls
+
+Go to project folder -> platforms -> android -> AndroidManifest.xml
+Find something like:
+	<uses-sdk android:minSdkVersion="10" android:targetSdkVersion="19" />
+
 
 Edit config.xml
 http://cordova.apache.org/docs/en/4.0.0/config_ref_index.md.html#The%20config.xml%20File
