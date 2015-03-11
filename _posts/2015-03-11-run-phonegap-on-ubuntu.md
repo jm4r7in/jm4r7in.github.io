@@ -71,6 +71,12 @@ Save the file, log out, and log back in to apply the changes.
 https://cordova.apache.org/
 	sudo npm install -g cordova
 
+## . Update C/C++
+
+	sudo apt-get install lib32stdc++6
+	sudo apt-get install lib32z1
+
+
 ## 11. Create the App
 
 Go to the directory where you maintain your source code, and run a command such as the following:
@@ -116,14 +122,6 @@ Add your index.html, js images and css files to the relevant folders in the www 
 
 
 
-
-## . Install the necessary Android packages
-
-
-## . Update C/C++
-
-
-## . Update C/C++
 
 
 Inspired by: 
