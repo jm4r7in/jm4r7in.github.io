@@ -19,8 +19,11 @@ bla bla
 	sudo apt-get install ant
     
 ## 5. Get the Android SDK
+Download from :
 	http://developer.android.com/sdk/index.html
-    tar -xv android-sdk_r24.0.2-linux.tgz /usr/local/
+Extract to /usr/local/android-sdk-linux
+    tar -xvf android-sdk_r24.0.2-linux.tgz -C /usr/local/
+
 
 
 
