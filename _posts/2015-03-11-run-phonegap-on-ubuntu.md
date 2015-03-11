@@ -52,6 +52,14 @@ Open the first Android X.X folder (the latest version) and select:
 
 Install the packages.
 
+## 9. Install the Cordova CLI
+
+https://cordova.apache.org/
+
+
+
+
+
 
 ## . Update your PATH
 
