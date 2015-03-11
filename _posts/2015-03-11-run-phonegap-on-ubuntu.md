@@ -36,8 +36,7 @@ Extract to /usr/local/android-sdk-linux
 
 ## 7. Launch the Android SDK Manager
 
-	cd /usr/local/android-sdk-linux
-    sudo sh android
+	/usr/local/android-sdk-linux/tools/android
 
 ## 8. In the Android SDK Manager
 
