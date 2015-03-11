@@ -35,8 +35,20 @@ Extract to /usr/local/android-sdk-linux
 	sudo apt-get install openjdk-7-jdk
 
 ## 7. Launch the Android SDK Manager
+
 	cd /usr/local/android-sdk-linux
     sh android
+
+## 8. In the Android SDK Manager
+
+Open the Tools directory and select:
+	Android SDK Tools
+	Android SDK Platform-tools
+	Android SDK Build-tools (highest version)
+
+Open the first Android X.X folder (the latest version) and select:
+	SDK Platform
+	??? A system image for the emulator, such as ARM EABI v7a System Image
 
 
 
