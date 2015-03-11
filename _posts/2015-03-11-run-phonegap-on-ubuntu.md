@@ -5,27 +5,34 @@ published: false
 ## Run Phonegap on Ubuntu
 
 ## 1. Install Git
+
 	sudo apt-get install git
 
 ## 2. Install NodeJS
+
 	sudo apt-get install node
     
 bla bla
 
 ## 3. Install PhoneGap
+
 	sudo npm install -g phonegap
 
 ## 4. Install Ant
+
 	sudo apt-get install ant
     
 ## 5. Get the Android SDK
+
 Download from :
 	http://developer.android.com/sdk/index.html
 Extract to /usr/local/android-sdk-linux
     sudo tar -xvf android-sdk_r24.0.2-linux.tgz -C /usr/local/
 
+## 6. Get Java (JRE & JDK)
 
-
+	sudo apt-get install openjdk-7-jre
+	sudo apt-get install openjdk-7-jdk
 
 
 
