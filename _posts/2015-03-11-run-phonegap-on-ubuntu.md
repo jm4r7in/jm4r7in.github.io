@@ -88,6 +88,7 @@ Run this to check your current set of platforms:
 	$ cordova platforms ls
 
 Edit config.xml
+http://cordova.apache.org/docs/en/4.0.0/config_ref_index.md.html#The%20config.xml%20File
 
 <platform name="android">
 </platform>
