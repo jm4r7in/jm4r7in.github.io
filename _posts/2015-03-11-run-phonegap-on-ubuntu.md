@@ -52,12 +52,23 @@ Open the first Android X.X folder (the latest version) and select:
 
 Install the packages.
 
-## 9. Install the Cordova CLI
+## 9. Update your PATH
+
+Open .profile for editing using the following command.
+	gedit ~/.profile
+
+Append the following lines to the end of the file. Do not put these inside any of the IF blocks.
+	export ANDROID_HOME="/usr/local/android-sdk-linux/tools"
+	export ANDROID_PLATFORM_TOOLS="/usr/local/android-sdk-linux/platform-tools"
+	export PATH="$PATH:$ANDROID_HOME:$ANDROID_PLATFORM_TOOLS"
+Save the file, log out, and log back in to apply the changes.
+
+## 10. Install the Cordova CLI
 
 https://cordova.apache.org/
 	sudo npm install -g cordova
 
-## 10. Create the App
+## 11. Create the App
 
 Go to the directory where you maintain your source code, and run a command such as the following:
 	cordova create hello com.example.hello HelloWorld
@@ -79,23 +90,14 @@ Edit config.xml
 Add your index.html, js images and css files to the relevant folders in the www folder
 
 
-## 11. Build the App
+## 12. Build the App
 
 	$ cordova build
 
 
 
 
-## . Update your PATH
 
-Open .profile for editing using the following command.
-	gedit ~/.profile
-
-Append the following lines to the end of the file. Do not put these inside any of the IF blocks.
-	export ANDROID_HOME="/usr/local/android-sdk-linux/tools"
-	export ANDROID_PLATFORM_TOOLS="/usr/local/android-sdk-linux/platform-tools"
-	export PATH="$PATH:$ANDROID_HOME:$ANDROID_PLATFORM_TOOLS"
-Save the file, log out, and log back in to apply the changes.
 
 ## . Install the necessary Android packages
 
