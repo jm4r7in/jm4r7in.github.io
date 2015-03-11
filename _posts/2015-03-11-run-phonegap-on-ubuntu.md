@@ -98,6 +98,8 @@ Run this to check your current set of platforms:
 Go to project folder -> platforms -> android -> AndroidManifest.xml
 Find something like:
 	<uses-sdk android:minSdkVersion="10" android:targetSdkVersion="19" />
+    
+Replace the value of android:targetSdkVersion by the version 
 
 ### 2. Edit the App
 
@@ -120,7 +122,7 @@ Add your index.html, js images and css files to the relevant folders in the www 
 
 	$ cordova build
 
-
+The result will be a file called yourApp-debug-unaligned.apk in the directory /path/to/app/files/platforms/android/CordovaLib/ant-build
 
 
 
