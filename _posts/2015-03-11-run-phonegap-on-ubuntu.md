@@ -48,7 +48,7 @@ Open the Tools directory and select:
 
 Open the first Android X.X folder (the latest version) and select:
 	SDK Platform
-	??? A system image for the emulator, such as ARM EABI v7a System Image
+	A system image for the emulator, such as ARM EABI v7a System Image
 
 Install the packages.
 
