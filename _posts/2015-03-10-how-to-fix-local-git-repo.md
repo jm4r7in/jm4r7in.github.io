@@ -10,9 +10,10 @@ published: true
 	git clone repo-of-my-project
 4. Remove all files from "projects/my-project" (except from the folder ".git")
 5. Copy all files of "projects/save-git" to "projects/my-project" (except the folder ".git")
-6. Create a commit:
+6. Go to the folder "projects/my-project"
+7. Create a commit:
 	git commit -m "fixed the f*ck git repo"
-7. Push the repo:
+8. Push the repo:
 	git push origin master
 
 
