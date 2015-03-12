@@ -8,8 +8,8 @@ published: true
 2. Go to the folder "projects/"
 3. Run 
 	git clone repo-of-my-project
-4. Remove all files from "projects/my-project"
-5. Copy the content of "projects/save-git" to "projects/my-project"
+4. Remove all source files from "projects/my-project"
+5. Copy the source files of "projects/save-git" to "projects/my-project"
 6. Create a commit:
 	git commit -m "fixed the f*ck git repo"
 7. Push the repo:
