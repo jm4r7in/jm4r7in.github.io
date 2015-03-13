@@ -125,3 +125,12 @@ When you’ve edited some of your environment variables in the configuration fil
 
 You can't access the MongoDB from the outside of the server. To access the MongoDB shell you need to log into your server by SSH first and then run the following command.
     mongo appName
+
+### Some usefull commands
+	db.getCollectionNames();
+    
+    mongo [database] --eval "db.getCollectionNames().forEach(function(n){db[n].remove()});
+
+
+
+
