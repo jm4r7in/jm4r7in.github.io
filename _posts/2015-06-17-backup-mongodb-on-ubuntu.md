@@ -12,7 +12,7 @@ https://sheharyar.me/blog/regular-mongo-backups-using-cron/
 http://www.codeproject.com/Tips/547759/Automating-backup-for-MongoDB-using-CRON-and-S-CMD
 
 
-Install s3cmd
+###Install s3cmd
 
 Import S3tools signing key:
 	wget -O- -q http://s3tools.org/repo/deb-all/stable/s3tools.key | sudo apt-key add -
