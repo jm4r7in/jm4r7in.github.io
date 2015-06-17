@@ -15,11 +15,11 @@ http://www.codeproject.com/Tips/547759/Automating-backup-for-MongoDB-using-CRON-
 ###Install s3cmd
 
 Import S3tools signing key:
-	wget -O- -q http://s3tools.org/repo/deb-all/stable/s3tools.key | sudo apt-key add -
+    wget -O- -q http://s3tools.org/repo/deb-all/stable/s3tools.key | sudo apt-key add -
 
 Add the repo to sources.list: 
-	sudo wget -O/etc/apt/sources.list.d/s3tools.list http://s3tools.org/repo/deb-all/stable/s3tools.list
+    sudo wget -O/etc/apt/sources.list.d/s3tools.list http://s3tools.org/repo/deb-all/stable/s3tools.list
 
 Refresh package cache and install the newest s3cmd: 
-	sudo apt-get update && sudo apt-get install s3cmd
+    sudo apt-get update && sudo apt-get install s3cmd
 
