@@ -20,5 +20,6 @@ Import S3tools signing key:
 Add the repo to sources.list: 
 	sudo wget -O/etc/apt/sources.list.d/s3tools.list http://s3tools.org/repo/deb-all/stable/s3tools.list
 
-
+Refresh package cache and install the newest s3cmd: 
+	sudo apt-get update && sudo apt-get install s3cmd
 
