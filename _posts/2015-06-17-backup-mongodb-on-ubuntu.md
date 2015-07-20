@@ -50,6 +50,13 @@ http://www.codeproject.com/Tips/547759/Automating-backup-for-MongoDB-using-CRON-
 	bash mongo_backup.sh
 
 
+	sudo su
+	crontab -e
+
+
+	00 00 * * * /bin/bash /home/username/scripts/mongo_backup.sh
+    
+
 ###Install s3cmd
 
 from : 
