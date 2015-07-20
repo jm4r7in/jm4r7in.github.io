@@ -41,7 +41,8 @@ http://www.codeproject.com/Tips/547759/Automating-backup-for-MongoDB-using-CRON-
   wput $BACKUP_NAME.tgz ftp://login:password@ftp.domain.com/backups/
 
 
-
+	chmod +x mongo_backup.sh
+	bash mongo_backup.sh
 
 
 ###Install s3cmd
