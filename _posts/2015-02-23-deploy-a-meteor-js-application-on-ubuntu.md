@@ -60,16 +60,16 @@ Open mup.json and enter your credentials, host, username, password, nodeVersion 
 	  "setupPhantom": true,
 
 	  // Application name (No spaces)
-	  "appName": "Idretis",
+	  "appName": "appName",
 
 	  // Location of app (local directory)
-	  "app": "/home/jerome/meteor/csm",
+	  "app": "/home/jerome/meteor/my-app",
 
 	  // Configure environment
 	  "env": {
  	   "PORT": 3000,
  	   "UPSTART_UID": "meteoruser", // The user you want to run meteor as.
- 	   "ROOT_URL": "http://app.idretis.com"
+ 	   "ROOT_URL": "http://domain.com"
   	},
 
   	// Meteor Up checks if the app comes online just after the deployment
@@ -149,6 +149,9 @@ You can't access the MongoDB from the outside of the server. To access the Mongo
 
 ### Some usefull commands
 
-	db.getCollectionNames();
+- db.getCollectionNames();
+-  mongo [database] --eval "db.getCollectionNames().forEach(function(n){db[n].remove()});
+
+	
     
-    mongo [database] --eval "db.getCollectionNames().forEach(function(n){db[n].remove()});
+   
