@@ -157,6 +157,7 @@ You can't access the MongoDB from the outside of the server. To access the Mongo
 
 - db.getCollectionNames();
 -  mongo [database] --eval "db.getCollectionNames().forEach(function(n){db[n].remove()});
+-  mongo [database] --eval "db.getCollectionNames().forEach(function(n){db[n].drop()});
 
 	
     
