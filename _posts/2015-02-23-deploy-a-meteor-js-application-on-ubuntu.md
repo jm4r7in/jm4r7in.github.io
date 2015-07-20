@@ -6,7 +6,7 @@ published: true
 ## Deploy A Meteor Js Application On Ubuntu
 
 Inspired from:
-
+- [https://github.com/arunoda/meteor-up](https://github.com/arunoda/meteor-up)
 - [http://alexbachuk.com/deploying-meteor-application-part-2/](http://alexbachuk.com/deploying-meteor-application-part-2/)
 - [https://gentlenode.com/journal/meteor-19-deploying-your-applications-in-a-snap-with-meteor-up-mup/41](https://gentlenode.com/journal/meteor-19-deploying-your-applications-in-a-snap-with-meteor-up-mup/41)
 
