@@ -13,10 +13,16 @@ Inspired from:
 - [https://gentlenode.com/journal/meteor-19-deploying-your-applications-in-a-snap-with-meteor-up-mup/41](https://gentlenode.com/journal/meteor-19-deploying-your-applications-in-a-snap-with-meteor-up-mup/41)
 
 
+## 0. Setting user
+
+SSH to your server and 
+
+    sudo adduser meteoruser
+
 
 ## 1. Installing Meteor-Up
 
-In your local app directory, run:
+In your **local** app directory, run:
 
 	sudo npm install -g mup
 	sudo ln -s /usr/bin/nodejs /usr/bin/node
@@ -28,7 +34,7 @@ If you need to update MUP to the latest version in the future:
 
 ## 2. Creating and Configuring a Meteor-Up Project
 
-In your local app directory, run:
+In your **local** app directory, run:
 
 	mup init
     
