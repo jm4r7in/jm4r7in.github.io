@@ -38,9 +38,9 @@ Open mup.json and enter your credentials, host, username, password, nodeVersion 
 	  // Server authentication info
 	  "servers": [
 	    {
-	      "host": "",
-	      "username": "",
-	      "password": ""
+	      "host": "hostname",
+	      "username": "root",
+	      "password": "password"
 	      // or pem file (ssh based authentication)
 	      //"pem": "~/.ssh/id_rsa"
 	    }
@@ -54,7 +54,7 @@ Open mup.json and enter your credentials, host, username, password, nodeVersion 
 	  "setupNode": true,
 
 	  // WARNING: If nodeVersion omitted will setup 0.10.33 by default. Do not use v, only version number.
-	  "nodeVersion": "0.10.33",
+	  "nodeVersion": "0.10.36",
 
 	  // Install PhantomJS in the server
 	  "setupPhantom": true,
@@ -69,7 +69,7 @@ Open mup.json and enter your credentials, host, username, password, nodeVersion 
 	  "env": {
  	   "PORT": 3000,
  	   "UPSTART_UID": "meteoruser", // The user you want to run meteor as.
-  	  "ROOT_URL": "http://app.idretis.com"
+ 	   "ROOT_URL": "http://app.idretis.com"
   	},
 
   	// Meteor Up checks if the app comes online just after the deployment
