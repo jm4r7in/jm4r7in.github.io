@@ -15,27 +15,30 @@ http://www.codeproject.com/Tips/547759/Automating-backup-for-MongoDB-using-CRON-
 
 ### Script
 
-#!/bin/bash
+    mongo_backup.sh
+    
 
-MONGO_DATABASE="appDBName"
-APP_NAME="appName"
+  #!/bin/bash
+  
+  MONGO_DATABASE="appDBName"
+  APP_NAME="appName"
 
-MONGO_HOST="127.0.0.1"
-MONGO_PORT="27017"
-TIMESTAMP=`date +%F-%H%M`
-MONGODUMP_PATH="/usr/bin/mongodump"
-BACKUPS_DIR="/home/meteoruser/backups/$APP_NAME"
-BACKUP_NAME="$APP_NAME-$TIMESTAMP"
-
-# mongo admin --eval "printjson(db.fsyncLock())"
-# $MONGODUMP_PATH -h $MONGO_HOST:$MONGO_PORT -d $MONGO_DATABASE
-$MONGODUMP_PATH -d $MONGO_DATABASE
-# mongo admin --eval "printjson(db.fsyncUnlock())"
-
-tar -zcvf $BACKUP_NAME.tgz dump
-rm -rf dump
-
-wput $BACKUP_NAME.tgz ftp://login:password@ftp.domain.com/backups/
+  MONGO_HOST="127.0.0.1"
+  MONGO_PORT="27017"
+  TIMESTAMP=`date +%F-%H%M`
+  MONGODUMP_PATH="/usr/bin/mongodump"
+  BACKUPS_DIR="/home/meteoruser/backups/$APP_NAME"
+  BACKUP_NAME="$APP_NAME-$TIMESTAMP"
+  
+  # mongo admin --eval "printjson(db.fsyncLock())"
+  # $MONGODUMP_PATH -h $MONGO_HOST:$MONGO_PORT -d $MONGO_DATABASE
+  $MONGODUMP_PATH -d $MONGO_DATABASE
+  # mongo admin --eval "printjson(db.fsyncUnlock())"
+  
+  tar -zcvf $BACKUP_NAME.tgz dump
+  rm -rf dump
+  
+  wput $BACKUP_NAME.tgz ftp://login:password@ftp.domain.com/backups/
 
 
 
