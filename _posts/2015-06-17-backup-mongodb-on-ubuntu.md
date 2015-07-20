@@ -13,6 +13,11 @@ https://sheharyar.me/blog/regular-mongo-backups-using-cron/
 http://www.codeproject.com/Tips/547759/Automating-backup-for-MongoDB-using-CRON-and-S-CMD
 
 
+### wput
+
+	sudo apt-get install wput
+    
+
 ### Script
 
     mongo_backup.sh
